@@ -6,7 +6,7 @@
 /* ZONA HEADER */
 
 header{
-  margin: 0 15%;
+  margin: 0 5%;
 }
 
 .menù{
@@ -17,6 +17,15 @@ header{
 .logo{
   height: 60px;
   background-color: blue;
+  padding: 5% 70px;
+}
+
+.logo > span{
+  width: 450px;
+  height: 50px;
+  /* float: right; */
+  transform: translate(-50% -50%);
+  background-color: yellow;
 }
 
 .jumbo{
