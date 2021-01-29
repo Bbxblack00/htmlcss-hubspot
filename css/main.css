@@ -6,7 +6,7 @@
 
 a{
   text-decoration: none;
-  color: gray;
+  color: black;
 }
 
 /* ZONA HEADER */
@@ -15,17 +15,14 @@ header{
   margin: 0 15%;
 }
 
-.menù{
+.main.menù{
   padding: 14px 20px;
   font-size: 16px;
   border-bottom: 2px solid lightgray;
 }
 
-span > a{
-  color: black;
-}
 
-.menù > span:first-child{
+.main.menù > span:first-child{
   padding-right: 10px;
   border-right: 1px solid gray;
 }
@@ -61,18 +58,30 @@ span > a{
 }
 
 .logo{
-  height: 60px;
-  background-color: blue;
-  padding: 5% 70px;
+  /* height: 60px;
+  background-color: blue; */
+  padding: 14px 20px 40px;
 }
 
-.logo > span{
-  width: 450px;
-  height: 50px;
-  /* float: right; */
-  transform: translate(-50% -50%);
-  background-color: yellow;
+.logo > img{
+  float: left;
+  width: 80px;
 }
+
+.sotto.menù{
+  float: right;
+}
+
+nav > ul{
+  list-style: none;
+}
+
+li{
+display: inline-block;
+margin: 5px 12px;
+}
+
+
 
 .jumbo{
   height: 500px;
