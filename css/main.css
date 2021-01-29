@@ -1,17 +1,63 @@
 *{
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
 }
 
 /* ZONA HEADER */
 
 header{
-  margin: 0 5%;
+  margin: 0 15%;
 }
 
 .menù{
-  height: 50px;
-  background-color: red;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-bottom: 2px solid lightgray;
+}
+
+span > a{
+  color: black;
+}
+
+.menù > span:first-child{
+  padding-right: 10px;
+  border-right: 1px solid gray;
+}
+
+.menù > span:nth-last-child(2){
+  padding: 10px 7px;
+}
+
+.ricerca{
+  display: inline-block;
+  float: right;
+}
+
+.fas.fa-search{
+  color: rgb(21, 172, 195);
+  margin-right: 10px;
+}
+
+#in{
+  border-radius: 5px;
+  border: 1px solid rgb(254, 119, 90);
+  color: rgb(254, 119, 90);
+  background-color: white;
+  padding: 6px;
+}
+
+#free{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(254, 119, 90);
+    padding: 6px;
 }
 
 .logo{
@@ -40,6 +86,10 @@ header{
 /* FINE ZONA HEADER */
 
 /* ZONA MAIN */
+
+main{
+  margin: 0 15%;
+}
 
 .primo{
   height: 300px;
@@ -74,6 +124,10 @@ header{
 /* FINE ZONA MAIN */
 
 /* ZONA FOOTER */
+
+footer{
+  margin: 0 15%;
+}
 
 .riga.inferiore{
   height: 350px;
