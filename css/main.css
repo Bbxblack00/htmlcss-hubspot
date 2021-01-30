@@ -9,14 +9,23 @@ a{
   color: black;
 }
 
-/* ZONA HEADER */
-
-header{
-  margin: 0 15%;
+p{
+  font-size: 15px
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ZONA HEADER */
+
+
+
 .main.menù{
-  padding: 14px 20px;
+  background-color: rgb(244, 249, 253);
+  padding: 12px 17%;
   font-size: 16px;
   border-bottom: 2px solid lightgray;
 }
@@ -33,7 +42,7 @@ header{
 
 .ricerca{
   display: inline-block;
-  float: right;
+  margin-left: 67%;
 }
 
 .fas.fa-search{
@@ -46,21 +55,21 @@ header{
   border: 1px solid rgb(254, 119, 90);
   color: rgb(254, 119, 90);
   background-color: white;
-  padding: 6px;
+  padding: 9px;
 }
 
-#free{
-    border-radius: 5px;
-    border: none;
-    color: white;
-    background-color: rgb(254, 119, 90);
-    padding: 6px;
+.free{
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(254, 119, 90);
+  padding: 9px;
 }
 
 .logo{
   /* height: 60px;
   background-color: blue; */
-  padding: 14px 20px 40px;
+  padding: 14px 17% 40px;
 }
 
 .logo > img{
@@ -84,26 +93,53 @@ margin: 5px 12px;
 
 
 .jumbo{
-  height: 500px;
-  background-color: brown;
+  height: 700px;
+  background-image:url(../img/jumbotron.png);
+  background-size: 100% 800px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 60px 55% 0 17%;
 }
 
-.riga.superiore{
-  height: 60px;
-  background-color: green;
+.jumbo > h1{
+  font-size: 55px;
+  margin-bottom: 20px;
 }
+
+.jumbo > p{
+  margin-bottom: 20px;
+}
+
+.free.grande{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
 /* FINE ZONA HEADER */
 
 /* ZONA MAIN */
 
 main{
-  margin: 0 15%;
+  background-color: rgb(244, 249, 253);
 }
 
+
+
 .primo{
-  height: 300px;
-  background-color: violet;
+  padding: 0 17%;
+  text-align: center;
+  margin: 20px;
 }
+
+.primo > img{
+  width: 300px;
+}
+
+.primo > h2, .primo > p{
+  margin: 25px 220px;
+}
+
 
 .secondo{
   height: 250px;
