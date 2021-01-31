@@ -13,10 +13,11 @@ p{
   font-size: 15px
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
 }
 
 /* ZONA HEADER */
@@ -25,7 +26,7 @@ body{
 
 .main.menù{
   background-color: rgb(244, 249, 253);
-  padding: 12px 17%;
+  padding: 12px 20%;
   font-size: 16px;
   border-bottom: 2px solid lightgray;
 }
@@ -69,7 +70,7 @@ body{
 .logo{
   /* height: 60px;
   background-color: blue; */
-  padding: 14px 17% 40px;
+  padding: 14px 20% 40px;
 }
 
 .logo > img{
@@ -81,11 +82,11 @@ body{
   float: right;
 }
 
-nav > ul{
+ul{
   list-style: none;
 }
 
-li{
+nav > li{
 display: inline-block;
 margin: 5px 12px;
 }
@@ -98,7 +99,7 @@ margin: 5px 12px;
   background-size: 100% 800px;
   background-position: bottom;
   background-repeat: no-repeat;
-  padding: 60px 55% 0 17%;
+  padding: 60px 52% 0 20%;
 }
 
 .jumbo > h1{
@@ -126,8 +127,13 @@ main{
 
 
 
+
+
+
+/* INIZIO PRIMA PARTE */
+
 .primo{
-  padding: 0 17%;
+  padding: 0 20%;
   text-align: center;
   margin: 20px;
 }
@@ -137,19 +143,273 @@ main{
 }
 
 .primo > h2, .primo > p{
-  margin: 25px 220px;
+  margin: 25px 200px;
 }
 
+
+
+/* FINE PRIMA PARTE */
+
+
+
+
+
+
+
+
+
+
+
+/* INIZIO SERCONDA PARTE */
 
 .secondo{
-  height: 250px;
-  background-color: orange;
+  margin: 15px 20%;
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(220,220,220);
 }
 
-.terzo{
-  height: 700px;
-  background-color: lightblue;
+.secondo::after{
+  content: "";
+  display: table;
+  clear: both;
 }
+
+.sinistra{
+  float: left;
+  text-align: center;
+  margin-left: 7%;
+}
+
+.sinistra > img{
+  display: block;
+  width: 53%;
+  margin: 35px 25%;
+}
+
+.destra{
+  width: 50%;
+  float: right;
+  /* padding: 25%; */
+}
+
+.destra > h3{
+  margin: 20px 0;
+}
+
+.destra > p{
+  margin: 0 0 20px;
+}
+
+.destra > h4{
+  margin: 0 0 20px;
+  display: inline-block;
+}
+
+.linea{
+  width: 100px;
+  border: 1px solid gray;
+}
+
+.fas.fa-check-circle{
+  color: rgb(254, 119, 90);
+}
+
+
+/* FINE SECONDA PARTE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INIZIO TERZA PARTE */
+
+.terzo{
+  margin: 15px 20%;
+}
+
+.terzo::after, .left::after, .center::after, .right::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+/* Blocco di sinistra */
+
+.left{
+  float: left;
+  width: 30%;
+  height: 650px;
+  text-align: center;
+  padding: 45px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(220,220,220);
+}
+
+.left > img{
+  width: 43%;
+  margin-bottom: 20px;
+}
+
+.left > h3{
+  margin-bottom: 20px;
+}
+
+.left > p{
+  margin-bottom: 20px;
+}
+
+.left > h4{
+  margin-top: 20px;
+}
+
+.left > ul{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.left > button{
+  margin-top: 20px;
+}
+
+/* Fine bocco di sinistra */
+
+
+
+
+
+
+
+
+
+/* Inizio blocco centrale */
+
+
+.center{
+  float: left;
+  width: 30%;
+  height: 650px;
+  text-align: center;
+  padding: 45px;
+  margin: 0 5%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(220,220,220);
+}
+
+.center > img{
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.center > h3{
+  margin-bottom: 20px;
+}
+
+.center > p{
+  margin-bottom: 20px;
+}
+
+.center > h4{
+  margin-top: 20px;
+}
+
+.center > ul{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.center > button{
+  margin-top: 20px;
+}
+
+/* Fine bloco centrale */
+
+
+
+
+
+
+
+
+/* Inizio blocco di destra */
+
+
+.right{
+  float: left;
+  width: 30%;
+  height: 650px;
+  text-align: center;
+  padding: 45px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(220,220,220);
+}
+
+.right > img{
+  width: 53%;
+  margin-bottom: 20px;
+}
+
+.right > h3{
+  margin-bottom: 20px;
+}
+
+.right > p{
+  margin-bottom: 20px;
+}
+
+.right > h4{
+  margin-top: 20px;
+}
+
+.right > ul{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.right > button{
+  margin-top: 20px;
+}
+
+
+/* Fine blocco di destra */
+
+
+
+
+
+
+/* FINE TERZA PARTE */
+
+
+
+
+
+
+
+
+
+
 
 .quarto{
   height: 670px;
