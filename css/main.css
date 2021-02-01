@@ -562,17 +562,19 @@ main{
 /* ZONA FOOTER */
 
 footer{
-  margin: 0 20%;
+  padding: 0 17%;
+  margin-top: 20px;
+  background-color: rgb(50, 73, 91);
 }
 
-.riga.inferiore{
-  height: 350px;
-  background-color: brown;
+.riga.inferiore::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .end{
-  height: 80px;
-  background-color: gold;
+
 }
 
 /* FINE ZONA FOOTER */
