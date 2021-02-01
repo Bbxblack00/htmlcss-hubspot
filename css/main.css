@@ -200,7 +200,6 @@ main{
 .destra{
   width: 50%;
   float: right;
-  /* padding: 25%; */
 }
 
 .destra > h3{
@@ -399,9 +398,8 @@ main{
 
 
 
-
-
 /* FINE TERZA PARTE */
+
 
 
 
@@ -416,7 +414,7 @@ main{
 .quarto{
   padding: 0 17%;
   margin: 55px 0;
-  background-color: rgb(0, 168, 188);
+  background: linear-gradient(to right, rgb(0, 168, 188), rgb(0, 188, 168));
   text-align: center;
 }
 
@@ -440,14 +438,22 @@ main{
   color: white;
   float: left;
   width: 25%;
-  color: white;
 }
 
 .sopra > div{
-  border-bottom: 1px solid gray;
-  margin-bottom: 33px;
+  margin-top: 40px;
+  border-bottom: 1px solid white;
+  padding-bottom: 33px;
 }
 
+.sotto > div{
+  padding-top: 33px;
+  margin-bottom: 40px;
+}
+
+.uno, .due, .tre, .cinque, .sei, .sette{
+  border-right: 1px solid white;
+}
 
 
 /* FINE QUARTA PARTE */
@@ -457,17 +463,101 @@ main{
 
 
 
+
+
+
+
+/* INIZIO QUINTA PARTE */
+
+
 .quinto{
-  height: 200px;
-  background-color: darkgray;
+  padding: 0 17%;
+  margin-bottom: 20px;
 }
+
+.quinto::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.quinto > .sinistra{
+  width: 16%;
+  margin-left: 16%;
+}
+
+.quinto > .destra{
+  width: 40%;
+}
+
+.up > img{
+  height: 17px;
+  margin: 10px;
+}
+
+.down > img{
+  height: 25px;
+  margin: 10px;
+}
+
+
+/* FINE QUINTA PARTE */
+
+
+
+
+
+/* INIZIO QUINTA PARTE */
+
 
 .sesto{
-  height: 350px;
-  background-color: red;
+  margin: 55px 17% 0;
 }
 
+.sesto::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sinistra{
+  width: 35%;
+  text-align: left;
+}
+
+.sesto > .sinistra > h2{
+  margin-bottom: 20px;
+}
+
+.sesto > .sinistra > p{
+  margin-bottom: 20px;
+}
+
+.sesto > .sinistra > button{
+  margin-top: 20px;
+}
+
+.sesto img{
+  width: 20%;
+  float: right;
+}
+
+
+/* FINE QUINTA PARTE */
+
+
+
+
+
 /* FINE ZONA MAIN */
+
+
+
+
+
+
+
+
 
 /* ZONA FOOTER */
 
