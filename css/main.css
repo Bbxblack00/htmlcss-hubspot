@@ -620,11 +620,11 @@ footer h3{
   padding: 25px;
 }
 
-.support > a{
+#support{
   color: rgb(50, 73, 91);
 }
 
-.support > a:hover{
+#support:hover{
   color: orange;
   text-decoration: none;
 }
