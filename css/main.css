@@ -567,14 +567,78 @@ footer{
   background-color: rgb(50, 73, 91);
 }
 
+
+
+
+
 .riga.inferiore::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.end{
+.colonna{
+  float: left;
+  margin: 3%;
+  color: lightgray;
+}
 
+.colonna h4{
+  margin-bottom: 18px;
+}
+
+.colonna a{
+  color: lightgray;
+}
+
+.colonna a:hover{
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.colonna button{
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: lightgray;
+}
+
+.colonna button:hover{
+  padding: 25px;
+}
+
+.colonna button a{
+  color: rgb(50, 73, 91);
+}
+
+.colonna button a:hover{
+  color: orange;
+  text-decoration: none;
+}
+
+.colonna .fab{
+  margin-right: 10px;
+}
+
+
+
+
+.languages{
+  text-align: center;
+}
+
+.languages a{
+  color: lightgray;
+  margin-right: 15px;
+}
+
+
+
+
+
+.end{
+  background-color: rgb(50, 73, 91);
 }
 
 /* FINE ZONA FOOTER */
