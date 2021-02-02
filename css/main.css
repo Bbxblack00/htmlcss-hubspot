@@ -193,8 +193,12 @@ main{
 
 .sinistra > img{
   display: block;
-  width: 53%;
-  margin: 35px 25%;
+  width: 35%;
+  margin: 35px 0;
+}
+
+.sinistra > button{
+  margin-left: 5%;
 }
 
 .destra{
@@ -210,14 +214,16 @@ main{
   margin: 0 0 20px;
 }
 
-.destra > h4{
+.destra  h4{
   margin: 0 0 20px;
   display: inline-block;
 }
 
 .linea{
-  width: 100px;
-  border: 1px solid gray;
+  display: inline-block;
+  width: 60%;
+  height: 6px;
+  border-top: 1px solid gray;
 }
 
 
@@ -567,6 +573,12 @@ footer{
   background-color: rgb(50, 73, 91);
 }
 
+footer h3{
+  color: lightgray;
+}
+
+
+
 
 
 
@@ -579,7 +591,7 @@ footer{
 
 .colonna{
   float: left;
-  margin: 3%;
+  margin: 4%;
   color: lightgray;
 }
 
@@ -587,11 +599,11 @@ footer{
   margin-bottom: 18px;
 }
 
-.colonna a{
+.riga.inferiore a{
   color: lightgray;
 }
 
-.colonna a:hover{
+.riga.inferi a:hover{
   color: lightblue;
   text-decoration: underline;
 }
@@ -608,11 +620,11 @@ footer{
   padding: 25px;
 }
 
-.colonna button a{
+.support > a{
   color: rgb(50, 73, 91);
 }
 
-.colonna button a:hover{
+.support > a:hover{
   color: orange;
   text-decoration: none;
 }
@@ -633,12 +645,15 @@ footer{
   margin-right: 15px;
 }
 
-
-
-
-
-.end{
-  background-color: rgb(50, 73, 91);
+.languages img{
+  width: 15%;
+  text-align: left;
 }
+
+.languages > .destra > span{
+  margin-top: 40px;
+}
+
+
 
 /* FINE ZONA FOOTER */
