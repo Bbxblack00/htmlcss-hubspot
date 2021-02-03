@@ -30,10 +30,17 @@ body{
 
 
 .main.menù{
+  position: fixed;
   background-color: rgb(244, 249, 253);
   padding: 12px 17%;
   font-size: 16px;
   border-bottom: 2px solid lightgray;
+}
+
+.main.menù::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
@@ -46,9 +53,17 @@ body{
   padding: 10px 7px;
 }
 
+.les{
+  float: left;
+}
+
+
+
+
+
 .ricerca{
   display: inline-block;
-  margin-left: 67%;
+  float: right;
 }
 
 .fas.fa-search{
